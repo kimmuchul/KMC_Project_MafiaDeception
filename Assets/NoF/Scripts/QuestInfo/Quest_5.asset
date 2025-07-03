@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4264d0c2c964cbd47a9a7c6125009201, type: 3}
+  m_Name: Quest_5
+  m_EditorClassIdentifier: 
+  questID: Q5
+  questName: "\uC54C\uB860\uC18C\uC640 \uC790\uD788\uB974\uC758 \uAD00\uACC4"
+  questDescription: "\uB808\uC628,\uC54C\uB860\uC18C,\uC790\uD788\uB974\uB294 \uBAA8\uB450
+    \uC774 \uAD6C\uC5ED\uC5D0 \uC0B4\uACE0\uC788\uB2E4. \uC54C\uB860\uC18C\uC640
+    \uB9C8\uC57D\uC0C1 \uC790\uD788\uB974\uC640\uC758 \uC5F0\uACB0\uC810\uC744 \uCC3E\uC544\uBCF4\uC790"
+  questGiverID: LeonWindow
+  questReceiverID: Alonso
+  questStartDialogue: 
+  questInprogressDoalogues:
+  - "\uD50C\uB808\uC774\uC5B4 \uB3C5\uBC31\uC774\uB77C\uB294 \uC124\uC815\uC73C\uB85C
+    \"\uB808\uC628\uC774 \uC8FD\uC5B4\uC788\uB2E4...\" \uB77C\uACE0 \uB9D0\uD574\uC918"
+  - "\uD50C\uB808\uC774\uC5B4 \uB3C5\uBC31\uC774\uB77C\uB294 \uC124\uC815\uC73C\uB85C
+    \"\uC790\uD788\uB974? \uB9C8\uC57D\uAC70\uB798\uC0C1\uC758 \uC774\uB984\uC774
+    \uC65C \uC5EC\uAE30\uC11C? \" \uB77C\uACE0 \uB9D0\uD574\uC918"
+  - "\uD50C\uB808\uC774\uC5B4 \uB3C5\uBC31\uC774\uB77C\uB294 \uC124\uC815\uC73C\uB85C
+    \"\uC790\uD788\uB974\uC640 \uC5F0\uAD00\uB41C \uBB3C\uAC74\uC744 \uCC3E\uACE0
+    \uC54C\uB860\uC18C\uB97C \uCC3E\uC544\uAC00\uBCF4\uC790, \uC774 \uAD6C\uC5ED
+    \uB2F4\uB2F9\uC774\uB2C8 \uBB34\uC5B8\uAC00 \uC54C\uC9C0\uB3C4 \uBAB0\uB77C.\"
+    \uB77C\uACE0 \uB9D0\uD574\uC918"
+  questCompletedDialogue: 
+  targetName: "\uB9C8\uC57D\uBD09\uD22C"
+  targetID: 105
+  requiredTargetAmount: 1
+  questionCount: 4
+  keyword: "\uC5C6\uC74C"
+  requiredKeyword: 1
